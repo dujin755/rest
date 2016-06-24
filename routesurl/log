@@ -1,0 +1,469 @@
+DEBUG:logs:{'wsgi.multiprocess': False, 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.11', 'SCRIPT_NAME': '', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'SSH_CLIENT': '10.1.1.1 50534 22', 'REQUEST_METHOD': 'GET', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin', 'QUERY_STRING': '', 'HOME': '/root', 'GUESTFISH_RESTORE': '\\e[0m', 'GUESTFISH_INIT': '\\e[1;34m', 'LANG': 'zh_CN.UTF-8', 'TERM': 'linux', 'SHELL': '/bin/bash', 'HTTP_CONNECTION': 'keep-alive', 'SERVER_NAME': 'luoyan', 'REMOTE_ADDR': '10.1.1.1', 'SHLVL': '1', 'HISTSIZE': '1000', 'wsgi.url_scheme': 'http', 'SERVER_PORT': '8080', 'CONTENT_LENGTH': '', 'XDG_RUNTIME_DIR': '/run/user/0', 'GUESTFISH_PS1': '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ', 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f492f36f808>, 'wsgi.input': <socket._fileobject object at 0x7f492f10fc50>, 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0 Waterfox/47.0', 'HTTP_HOST': '10.1.1.10:8080', 'wsgi.multithread': True, 'XDG_SESSION_ID': '5', '_': '/usr/bin/python', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'wsgi.version': (1, 0), 'GUESTFISH_OUTPUT': '\\e[0m', 'GATEWAY_INTERFACE': 'CGI/1.1', 'wsgi.run_once': False, 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/mnt/hgfs/python/rest/first', 'HOSTNAME': 'luoyan', 'HTTP_ACCEPT_LANGUAGE': 'null', 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f493bdf01e0>, 'HISTCONTROL': 'ignoredups', 'PWD': '/mnt/hgfs/python/rest/logs', 'HTTP_DNT': '1', 'CONTENT_TYPE': 'text/plain', 'MAIL': '/var/spool/mail/root', 'SSH_CONNECTION': '10.1.1.1 50534 10.1.1.10 22', 'REMOTE_HOST': '', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'PATH_INFO': '/'}
+[2016-06-24 11:48:12,330] DEBUG 11 {'wsgi.multiprocess': False, 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.11', 'SCRIPT_NAME': '', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'SSH_CLIENT': '10.1.1.1 50534 22', 'REQUEST_METHOD': 'GET', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin', 'QUERY_STRING': '', 'HOME': '/root', 'GUESTFISH_RESTORE': '\\e[0m', 'GUESTFISH_INIT': '\\e[1;34m', 'LANG': 'zh_CN.UTF-8', 'TERM': 'linux', 'SHELL': '/bin/bash', 'HTTP_CONNECTION': 'keep-alive', 'SERVER_NAME': 'luoyan', 'REMOTE_ADDR': '10.1.1.1', 'SHLVL': '1', 'HISTSIZE': '1000', 'wsgi.url_scheme': 'http', 'SERVER_PORT': '8080', 'CONTENT_LENGTH': '', 'XDG_RUNTIME_DIR': '/run/user/0', 'GUESTFISH_PS1': '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ', 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f6228d41808>, 'wsgi.input': <socket._fileobject object at 0x7f6228ad22d0>, 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0 Waterfox/47.0', 'HTTP_HOST': '10.1.1.10:8080', 'wsgi.multithread': True, 'XDG_SESSION_ID': '5', '_': '/usr/bin/python', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'wsgi.version': (1, 0), 'GUESTFISH_OUTPUT': '\\e[0m', 'GATEWAY_INTERFACE': 'CGI/1.1', 'wsgi.run_once': False, 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/mnt/hgfs/python/rest/first', 'HOSTNAME': 'luoyan', 'HTTP_ACCEPT_LANGUAGE': 'null', 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f62357c21e0>, 'HISTCONTROL': 'ignoredups', 'PWD': '/mnt/hgfs/python/rest/logs', 'HTTP_DNT': '1', 'CONTENT_TYPE': 'text/plain', 'MAIL': '/var/spool/mail/root', 'SSH_CONNECTION': '10.1.1.1 50534 10.1.1.10 22', 'REMOTE_HOST': '', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'PATH_INFO': '/'}
+[2016-06-24 15:50:10,145] DEBUG 15 None
+[2016-06-24 15:50:10,333] DEBUG 15 None
+[2016-06-24 15:50:27,488] DEBUG 15 None
+[2016-06-24 15:50:27,529] DEBUG 15 None
+[2016-06-24 15:52:07,989] DEBUG 15 None
+[2016-06-24 15:52:08,051] DEBUG 15 None
+[2016-06-24 15:52:51,574] DEBUG 15 None
+[2016-06-24 15:52:51,577] DEBUG 16 {'wsgi.multiprocess': False, 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.11', 'SCRIPT_NAME': '', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'SSH_CLIENT': '10.1.1.1 50534 22', 'REQUEST_METHOD': 'GET', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin', 'QUERY_STRING': '', 'HOME': '/root', 'GUESTFISH_RESTORE': '\\e[0m', 'GUESTFISH_INIT': '\\e[1;34m', 'LANG': 'zh_CN.UTF-8', 'TERM': 'linux', 'SHELL': '/bin/bash', 'HTTP_CONNECTION': 'keep-alive', 'SERVER_NAME': 'luoyan', 'REMOTE_ADDR': '10.1.1.1', 'SHLVL': '1', 'HISTSIZE': '1000', 'wsgi.url_scheme': 'http', 'SERVER_PORT': '8080', 'CONTENT_LENGTH': '', 'XDG_RUNTIME_DIR': '/run/user/0', 'GUESTFISH_PS1': '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ', 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7fac5753d870>, 'wsgi.input': <socket._fileobject object at 0x7fac572e6150>, 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0 Waterfox/47.0', 'HTTP_HOST': '10.1.1.10:8080', 'wsgi.multithread': True, 'XDG_SESSION_ID': '5', '_': '/usr/bin/python', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'wsgi.version': (1, 0), 'GUESTFISH_OUTPUT': '\\e[0m', 'GATEWAY_INTERFACE': 'CGI/1.1', 'wsgi.run_once': False, 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/mnt/hgfs/python/rest', 'HOSTNAME': 'luoyan', 'HTTP_ACCEPT_LANGUAGE': 'null', 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7fac63fbf1e0>, 'HISTCONTROL': 'ignoredups', 'PWD': '/mnt/hgfs/python/rest/routesurl', 'HTTP_DNT': '1', 'CONTENT_TYPE': 'text/plain', 'MAIL': '/var/spool/mail/root', 'SSH_CONNECTION': '10.1.1.1 50534 10.1.1.10 22', 'REMOTE_HOST': '', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'PATH_INFO': '/server'}
+[2016-06-24 15:55:21,454] DEBUG 20 None
+[2016-06-24 15:55:21,455] DEBUG 21 {'wsgi.multiprocess': False, 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.11', 'SCRIPT_NAME': '', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'SSH_CLIENT': '10.1.1.1 50534 22', 'REQUEST_METHOD': 'GET', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin', 'QUERY_STRING': '', 'HOME': '/root', 'GUESTFISH_RESTORE': '\\e[0m', 'GUESTFISH_INIT': '\\e[1;34m', 'LANG': 'zh_CN.UTF-8', 'TERM': 'linux', 'SHELL': '/bin/bash', 'HTTP_CONNECTION': 'keep-alive', 'SERVER_NAME': 'luoyan', 'REMOTE_ADDR': '10.1.1.1', 'SHLVL': '1', 'HISTSIZE': '1000', 'wsgi.url_scheme': 'http', 'SERVER_PORT': '8080', 'CONTENT_LENGTH': '', 'XDG_RUNTIME_DIR': '/run/user/0', 'GUESTFISH_PS1': '\\[\\e[1;32m\\]><fs>\\[\\e[0;31m\\] ', 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f7c6aac1870>, 'wsgi.input': <socket._fileobject object at 0x7f7c6a85a050>, 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0 Waterfox/47.0', 'HTTP_HOST': '10.1.1.10:8080', 'wsgi.multithread': True, 'XDG_SESSION_ID': '5', '_': '/usr/bin/python', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'wsgi.version': (1, 0), 'GUESTFISH_OUTPUT': '\\e[0m', 'GATEWAY_INTERFACE': 'CGI/1.1', 'wsgi.run_once': False, 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/mnt/hgfs/python/rest', 'HOSTNAME': 'luoyan', 'HTTP_ACCEPT_LANGUAGE': 'null', 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f7c775431e0>, 'HISTCONTROL': 'ignoredups', 'PWD': '/mnt/hgfs/python/rest/routesurl', 'HTTP_DNT': '1', 'CONTENT_TYPE': 'text/plain', 'MAIL': '/var/spool/mail/root', 'SSH_CONNECTION': '10.1.1.1 50534 10.1.1.10 22', 'REMOTE_HOST': '', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'PATH_INFO': '/server'}
+[2016-06-24 15:56:39,957] ERROR 19 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 15:56:39,963] DEBUG 21 None
+[2016-06-24 15:56:57,417] ERROR 19 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 15:56:57,418] DEBUG 21 {'action': u'create', 'controller': u'<app.Server object at 0x7fed9be6f0d0>'}
+[2016-06-24 16:10:35,752] ERROR 19 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:10:35,753] DEBUG 21 {'action': u'create', 'controller': u'<app.Server object at 0x7fed9be6f0d0>'}
+[2016-06-24 16:17:35,956] ERROR 23 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:17:35,963] DEBUG 25 {'action': u'create', 'controller': u'<app.Server object at 0x7f539a88b110>'}
+[2016-06-24 16:17:44,309] ERROR 23 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:17:44,311] DEBUG 25 {'action': u'create', 'controller': u'<app.Server object at 0x7f539a88b110>'}
+[2016-06-24 16:18:09,123] ERROR 23 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:18:09,124] DEBUG 25 {'action': u'create', 'controller': u'<app.Server object at 0x7f539a88b110>'}
+[2016-06-24 16:18:36,145] ERROR 23 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:18:36,146] DEBUG 25 {'action': u'create', 'controller': u'<app.Server object at 0x7f539a88b110>'}
+[2016-06-24 16:30:25,694] ERROR 23 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:30:25,698] DEBUG 25 None
+[2016-06-24 16:30:39,397] ERROR 23 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:30:39,398] DEBUG 25 {'action': u'index', 'controller': u'<app.Server object at 0x7f91cb6d6110>', 'format': None}
+[2016-06-24 16:30:53,388] ERROR 23 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:30:53,389] DEBUG 25 {'action': u'index', 'controller': u'<app.Server object at 0x7f91cb6d6110>', 'format': None}
+[2016-06-24 16:31:22,666] ERROR 23 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:31:22,667] DEBUG 25 None
+[2016-06-24 16:31:39,268] ERROR 23 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:31:39,269] DEBUG 25 {'action': u'index', 'controller': u'<app.Server object at 0x7f91cb6d6110>', 'format': None}
+[2016-06-24 16:33:31,072] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:33:31,076] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7f1c3ddb60d0>', 'format': None}
+[2016-06-24 16:33:39,325] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:33:39,326] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7f1c3ddb60d0>', 'format': None}
+[2016-06-24 16:34:30,089] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:34:30,090] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7f1c3ddb60d0>', 'format': None}
+[2016-06-24 16:34:44,821] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:34:44,825] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7f412c9760d0>', 'format': None}
+[2016-06-24 16:34:55,621] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:34:55,623] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7f412c9760d0>', 'format': None}
+[2016-06-24 16:35:23,182] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:35:23,183] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7f412c9760d0>', 'format': None}
+[2016-06-24 16:38:36,884] ERROR 32 Route name     Methods Path                      
+server         GET     /server{.format}          
+create_servers POST    /server{.format}          
+new_servers    GET     /server/new{.format}      
+servers        GET     /server/{id}{.format}     
+update_servers PUT     /server/{id}{.format}     
+delete_servers DELETE  /server/{id}{.format}     
+edit_servers   GET     /server/{id}/edit{.format}
+[2016-06-24 16:38:36,889] DEBUG 34 {'action': u'create', 'controller': u'<app.Server object at 0x7fc81996c0d0>', 'format': None}
+[2016-06-24 16:39:01,327] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:39:01,334] DEBUG 34 None
+[2016-06-24 16:39:11,447] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:39:11,448] DEBUG 34 None
+[2016-06-24 16:39:27,719] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:39:27,721] DEBUG 34 {'action': u'create', 'controller': u'<app.Server object at 0x7fd7ff0de0d0>'}
+[2016-06-24 16:39:42,236] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:39:42,238] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7fd7ff0de0d0>'}
+[2016-06-24 16:39:56,855] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:39:56,857] DEBUG 34 {'action': u'show', 'controller': u'<app.Server object at 0x7fd7ff0de0d0>', 'id': u'123'}
+[2016-06-24 16:40:17,932] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:40:17,934] DEBUG 34 {'action': u'delete', 'controller': u'<app.Server object at 0x7fd7ff0de0d0>', 'id': u'123'}
+[2016-06-24 16:40:29,925] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:40:29,927] DEBUG 34 {'action': u'update', 'controller': u'<app.Server object at 0x7fd7ff0de0d0>', 'id': u'123'}
+[2016-06-24 16:41:35,421] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:41:35,427] DEBUG 34 {'action': u'update', 'controller': u'<app.Server object at 0x7fc1008840d0>', 'id': u'123'}
+[2016-06-24 16:41:40,789] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:41:40,790] DEBUG 34 {'action': u'delete', 'controller': u'<app.Server object at 0x7fc1008840d0>', 'id': u'123'}
+[2016-06-24 16:41:48,673] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:41:48,675] DEBUG 34 {'action': u'show', 'controller': u'<app.Server object at 0x7fc1008840d0>', 'id': u'123'}
+[2016-06-24 16:41:58,653] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:41:58,655] DEBUG 34 {'action': u'index', 'controller': u'<app.Server object at 0x7fc1008840d0>'}
+[2016-06-24 16:42:04,346] ERROR 32 Route name            Methods Path                         
+                      POST    /servers.:(format)           
+                      POST    /servers                     
+formatted_servers     GET     /servers.:(format)           
+servers               GET     /servers                     
+formatted_new_server  GET     /servers/new.:(format)       
+new_server            GET     /servers/new                 
+                      PUT     /servers/:(id).:(format)     
+                      PUT     /servers/:(id)               
+                      DELETE  /servers/:(id).:(format)     
+                      DELETE  /servers/:(id)               
+formatted_edit_server GET     /servers/:(id)/edit.:(format)
+edit_server           GET     /servers/:(id)/edit          
+formatted_server      GET     /servers/:(id).:(format)     
+server                GET     /servers/:(id)               
+[2016-06-24 16:42:04,348] DEBUG 34 {'action': u'create', 'controller': u'<app.Server object at 0x7fc1008840d0>'}
+[2016-06-24 17:05:51,438] ERROR 34 None
+[2016-06-24 17:06:17,050] ERROR 33 {'action': u'create', 'controller': u'<app.Server object at 0x7f9d930970d0>'}
+[2016-06-24 17:08:13,056] ERROR 35 {'action': u'create', 'controller': u'<app.Server object at 0x7f1f70216950>'}
+[2016-06-24 17:08:13,059] ERROR 36 POST /servers HTTP/1.1
+Accept: */*
+Content-Length: 19
+Content-Type: application/json
+Host: 10.1.1.10:8080
+User-Agent: curl/7.43.0
+
+{"body": "zhangjl"}
+[2016-06-24 17:08:33,434] ERROR 35 None
+[2016-06-24 17:08:33,436] ERROR 36 PUST /servers/123 HTTP/1.1
+Accept: */*
+Content-Length: 19
+Content-Type: application/json
+Host: 10.1.1.10:8080
+User-Agent: curl/7.43.0
+[2016-06-24 17:08:51,659] ERROR 35 {'action': u'update', 'controller': u'<app.Server object at 0x7f1f70216950>', 'id': u'123'}
+[2016-06-24 17:08:51,660] ERROR 36 PUT /servers/123 HTTP/1.1
+Accept: */*
+Content-Length: 19
+Content-Type: application/json
+Host: 10.1.1.10:8080
+User-Agent: curl/7.43.0
+
+{"body": "zhangjl"}
+[2016-06-24 17:09:38,123] ERROR 35 {'action': u'update', 'controller': u'<app.Server object at 0x7f62ceb4a950>', 'id': u'123'}
+[2016-06-24 17:09:38,126] ERROR 36 PUT /servers/123 HTTP/1.1
+Accept: */*
+Content-Length: 19
+Content-Type: application/json
+Host: 10.1.1.10:8080
+User-Agent: curl/7.43.0
+
+{"body": "zhangjl"}
+[2016-06-24 17:09:38,130] ERROR 37 {"body": "zhangjl"}
+[2016-06-24 17:11:23,555] ERROR 35 {'action': u'delete', 'controller': u'<app.Server object at 0x7f62ceb4a950>', 'id': u'123'}
+[2016-06-24 17:11:23,557] ERROR 36 DELETE /servers/123 HTTP/1.1
+Accept: */*
+Content-Length: 
+Content-Type: text/plain
+Host: 10.1.1.10:8080
+User-Agent: curl/7.43.0
+[2016-06-24 17:11:23,559] ERROR 37 
